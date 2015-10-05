@@ -1,0 +1,33 @@
+{
+  "name": "jayant",
+  "version": "0.0.2",
+  "description": "A website, for me, about myself.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "ipware": "0.0.7",
+    "morgan": "^1.6.1"
+  },
+  "author": "Jayant Bhawal",
+  "license": "GPL-2.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayantbh/jayant.git"
+  },
+  "keywords": [
+    "portfolio",
+    "self",
+    "about",
+    "me",
+    "design"
+  ],
+  "bugs": {
+    "url": "https://github.com/jayantbh/jayant/issues"
+  },
+  "homepage": "https://github.com/jayantbh/jayant#readme"
+}
