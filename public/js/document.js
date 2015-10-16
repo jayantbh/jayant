@@ -115,11 +115,11 @@ $(window).load(function () {
 	loadS01(1000,1500);
 	loadS02(1000,1000);
 	loadS03(1000,1000);
-	//loadS04(1000,1000);
+	loadS04(1000,1000);
 });
 $(document).scroll(function(){
 	loadS01(200,1500);
 	loadS02(200,1000);
 	loadS03(200,1000);
-	//loadS04(200,1000);
+	loadS04(200,1000);
 });
