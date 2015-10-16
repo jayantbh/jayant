@@ -7,7 +7,7 @@ var express = require('express'),
 	get_ip = require('ipware')().get_ip,
     path = require('path');
 
-var port = process.env.port || '3000';
+var port = process.env.PORT || '3000';
 
 app.use(function(req, res, next) {
 	var ip_info = get_ip(req);
