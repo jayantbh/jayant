@@ -1,6 +1,9 @@
 /**
  * Created by Jayant Bhawal on 05-10-2015.
  */
+
+var smallWindowWidth = 1220;
+
 var isElementInViewport = function (el,tolerance,offset) {
 
 	//special bonus for those using jQuery

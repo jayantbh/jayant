@@ -21,7 +21,12 @@ var loadS01 = function(delay,speed){
 var loadS02 = function(delay,speed){
 	if(!s02loaded && isElementInViewport($(".section02"),350)){
 		$(".project-box.normal .image-box").delay(delay).animate({top: "0"}, speed, 'easeOutExpo');
-		$(".project-box.inverse .image-box").delay(delay).animate({bottom: "80px"}, speed, 'easeOutExpo');
+		if(window.innerWidth>smallWindowWidth) {
+			$(".project-box.inverse .image-box").delay(delay).animate({bottom: "80px"}, speed, 'easeOutExpo');
+		}
+		else{
+			$(".project-box.inverse .image-box").delay(delay).animate({bottom: "0px"}, speed, 'easeOutExpo');
+		}
 		s02loaded = true;
 	}
 };

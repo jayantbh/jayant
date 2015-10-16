@@ -3,6 +3,13 @@ body {
   width: 100%;
   height: 100%;
 }
+.no-rotate {
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
 .rotate-R14 {
   -webkit-transform: rotateZ(14deg);
   -moz-transform: rotateZ(14deg);
@@ -542,4 +549,128 @@ section.section05 .row .col.contact-form button i {
   width: 2rem;
   -webkit-background-size: 90%;
   background-size: 90%;
+}
+@media screen and (max-width: 1220px) {
+  section.section02 {
+    height: auto;
+  }
+  section.section02 .fixed-layer {
+    position: relative;
+  }
+  section.section02 .fixed-layer .tilted-title {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  section.section02 .fixed-layer .tilted-title .text-container {
+    width: 100%;
+    left: 0;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  section.section02 .fixed-layer .scroll-icons {
+    top: 750px;
+  }
+  section.section02 .fixed-layer .scroll-icons.scroll-left {
+    left: 20px;
+  }
+  section.section02 .scroll-horizontal {
+    display: block;
+    height: auto;
+  }
+  section.section02 .scroll-horizontal .projects-gallery {
+    width: 4500px;
+    left: 0;
+  }
+  section.section02 .scroll-horizontal .projects-gallery .project-box {
+    float: left;
+    left: 0 !important;
+    height: 500px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    position: relative;
+    display: inline-block;
+  }
+  section.section02 .scroll-horizontal .projects-gallery .project-box .image-box {
+    height: 380px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    position: relative;
+  }
+  section.section02 .scroll-horizontal .projects-gallery .project-box .text-box {
+    height: 120px;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    position: relative;
+  }
+  section.section02 .scroll-horizontal .projects-gallery .project-box.normal .text-box {
+    bottom: 0;
+    left: 0;
+  }
+  section.section02 .scroll-horizontal .projects-gallery .project-box.inverse .text-box {
+    top: 0;
+    left: 0;
+  }
+  section.section02 .scroll-horizontal .projects-gallery .project-box.inverse .image-box {
+    left: 0;
+    bottom: -400px;
+  }
+  section.section03 {
+    height: auto;
+  }
+  section.section03 .work-experience-container {
+    width: 200%;
+    height: 700px;
+    position: relative;
+  }
+  section.section03 .work-experience-container .tilted-container .content-container {
+    text-align: right;
+    width: 42%;
+  }
+  section.section03 .work-experience-container .tilted-container .content-container .company-logo {
+    float: right;
+    position: relative;
+    right: 10px;
+  }
+  section.section03 .skills-container {
+    position: relative;
+    width: 100%;
+    padding: 7.5%;
+    top: -300px;
+  }
+  section.section03 .skills-container .tilted-container h1 span {
+    display: block;
+  }
+  section.section03 .skills-container .tilted-container h1 textarea {
+    width: 70%;
+  }
+  section.section03 .skills-container .tilted-container .skills-list {
+    width: 100%;
+    text-align: left;
+  }
+  section.section03 .skills-container .tilted-container .fade-out-div {
+    bottom: -300px;
+  }
+  section.section05 {
+    height: auto;
+  }
 }

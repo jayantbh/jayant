@@ -6,6 +6,13 @@ html, body {
 	.fh;
 }
 
+.no-rotate{
+	-webkit-transform: rotateZ(0deg);
+	-moz-transform: rotateZ(0deg);
+	-ms-transform: rotateZ(0deg);
+	-o-transform: rotateZ(0deg);
+	transform: rotateZ(0deg);
+}
 .rotate-R14 {
 	-webkit-transform: rotateZ(14deg);
 	-moz-transform: rotateZ(14deg);
@@ -516,6 +523,125 @@ section {
 					}
 				}
 			}
+		}
+	}
+}
+
+//Changes for screen with a max-width of 1300px
+
+@media screen and (max-width: 1220px){
+	section{
+		&.section02{
+			height: auto;
+			.fixed-layer{
+				position: relative;
+				.tilted-title{
+					position: relative;
+					top: 0;
+					left: 0;
+					text-align: center;
+					.fw;
+					.no-rotate;
+					.text-container{
+						.fw;
+						left: 0;
+						.no-rotate;
+					}
+				}
+				.scroll-icons{
+					top: 750px;
+					&.scroll-left{
+						left: 20px;
+					}
+				}
+			}
+			.scroll-horizontal{
+				display: block;
+				height: auto;
+				.projects-gallery{
+					width: 4500px;
+					left: 0;
+					.project-box{
+						float: left;
+						left: 0 !important;
+						height: 500px;
+						.no-rotate;
+						position: relative;
+						display: inline-block;
+						.image-box{
+							height: 380px;
+							.no-rotate;
+							position: relative;
+						}
+						.text-box{
+							height: 120px;
+							.no-rotate;
+							position: relative;
+						}
+						&.normal{
+							.text-box{
+								bottom: 0;
+								left: 0;
+							}
+						}
+						&.inverse{
+							.text-box{
+								top: 0;
+								left: 0;
+							}
+							.image-box{
+								left: 0;
+								bottom: -400px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.section03{
+			height: auto;
+			.work-experience-container{
+				width: 200%;
+				height: 700px;
+				position: relative;
+				.tilted-container{
+					.content-container{
+						text-align: right;
+						width: 42%;
+						.company-logo{
+							float: right;
+							position: relative;
+							right: 10px;
+						}
+					}
+				}
+			}
+			.skills-container{
+				position: relative;
+				width: 100%;
+				padding: 7.5%;
+				top: -300px;
+				.tilted-container{
+					h1{
+						span{
+							display: block;
+						}
+						textarea{
+							width: 70%;
+						}
+					}
+					.skills-list{
+						width: 100%;
+						text-align: left;
+					}
+					.fade-out-div{
+						bottom: -300px;
+					}
+				}
+			}
+		}
+		&.section05{
+			height: auto;
 		}
 	}
 }

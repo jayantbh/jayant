@@ -9,10 +9,18 @@ $(".main-list-container a").click(function(e){
 	scrollTo($(ID),0);
 });
 $(".section02 .scroll-left").click(function(e){
-	$(".section02 .scroll-horizontal").stop().animate({scrollLeft: $(".section02 .scroll-horizontal").scrollLeft()-510},800,'easeOutExpo');
+	var scrollValue = 500;
+	if(window.innerWidth>smallWindowWidth){
+		scrollValue = 510;
+	}
+	$(".section02 .scroll-horizontal").stop().animate({scrollLeft: $(".section02 .scroll-horizontal").scrollLeft()-scrollValue},800,'easeOutExpo');
 });
 $(".section02 .scroll-right").click(function(e){
-	$(".section02 .scroll-horizontal").stop().animate({scrollLeft: $(".section02 .scroll-horizontal").scrollLeft()+510},800,'easeOutExpo');
+	var scrollValue = 500;
+	if(window.innerWidth>smallWindowWidth){
+		scrollValue = 510;
+	}
+	$(".section02 .scroll-horizontal").stop().animate({scrollLeft: $(".section02 .scroll-horizontal").scrollLeft()+scrollValue},800,'easeOutExpo');
 });
 $("#skill-search").on('input',function () {
 	$(".skills-list").html("");
