@@ -68,17 +68,18 @@ var loadS04 = function(delay,speed){
 			"I AM A HUGE FOODIE. HUGE. (Quite clearly visible too.)",
 			"Also,",
 			"I’m incredibly hardworking. The people mentioned above can vouch for that."
-		],
-		post : [
-			"I never really focused on academics just for the sake of grades.",
-			"I focused on learning what was interesting, regardless of the hits my grades were taking.",
-			"In any case, if you’re interested in my academic score, here they are:",
-		],
-		scores : [
-			"Class 10th - Army Public School Barrackpore: 9.0 CGPA",
-			"Class 12th - Army Public School Barrackpore: 77.0%",
-			"West Bengal University of Technology (2nd year): 6.75 YGPA."
 		]
+		//,
+		//post : [
+		//	"I never really focused on academics just for the sake of grades.",
+		//	"I focused on learning what was interesting, regardless of the hits my grades were taking.",
+		//	"In any case, if you’re interested in my academic score, here they are:",
+		//],
+		//scores : [
+		//	"Class 10th - Army Public School Barrackpore: 9.0 CGPA",
+		//	"Class 12th - Army Public School Barrackpore: 77.0%",
+		//	"West Bengal University of Technology (2nd year): 6.75 YGPA."
+		//]
 	}
 	var sequenceDelay = delay;
 	if(!s04loaded &&  isElementInViewport($(".section04"),350)){
@@ -99,15 +100,15 @@ var loadS04 = function(delay,speed){
 			addTextByDelay($(".social.line-"+i),strings.mid[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
 		}
 
-		index = 0;
-		for(i = 1; i <= 3; i++){
-			addTextByDelay($(".post.line-"+i),strings.post[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
-		}
-
-		index = 0;
-		for(i = 1; i <= 3; i++){
-			addTextByDelay($(".scores.line-"+i),strings.scores[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
-		}
+		//index = 0;
+		//for(i = 1; i <= 3; i++){
+		//	addTextByDelay($(".post.line-"+i),strings.post[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
+		//}
+        //
+		//index = 0;
+		//for(i = 1; i <= 3; i++){
+		//	addTextByDelay($(".scores.line-"+i),strings.scores[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
+		//}
 	}
 };
 $(window).load(function () {
