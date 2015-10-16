@@ -23,3 +23,17 @@ var scrollTo = function(el,offset){
 var escapeRegExp = function(str) {
 	return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 };
+var addTextByDelay = function(elem,text,speed,wait){
+	setTimeout(function () {
+
+		console.log(text)
+		var index=0;
+		var intObject= setInterval(function() {
+			elem.html(elem.html()+text[index]);
+			index++;
+			if(index>=text.length){
+				clearInterval(intObject);
+			}
+		}, speed);
+	},wait);
+};
