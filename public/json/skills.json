@@ -1,0 +1,585 @@
+{
+	"skill": [
+		{
+			"name": "C",
+			"tags": [
+				"C",
+				"C++",
+				"Core",
+				"Programming",
+				"Competitive",
+				"Engineering"
+			]
+		},
+		{
+			"name": "HTML",
+			"tags": [
+				"Web",
+				"Design",
+				"Markup",
+				"HTML",
+				"CSS",
+				"Web Development",
+				"Website",
+				"Web Design",
+				"LESS",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end"
+			]
+		},
+		{
+			"name": "JAVA",
+			"tags": [
+				"JAVA",
+				"C++",
+				"JAVA",
+				"OOP",
+				"Programming",
+				"Competitive",
+				"Engineering"
+			]
+		},
+		{
+			"name": "JavaScript",
+			"tags": [
+				"Web",
+				"Design",
+				"Markup",
+				"HTML",
+				"CSS",
+				"Web Development",
+				"Website",
+				"Web Design",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end"
+			]
+		},
+		{
+			"name": "PHP",
+			"tags": [
+				"PHP",
+				"Web",
+				"Programming",
+				"Server",
+				"API",
+				"Web Development",
+				"Website",
+				"Web Apps",
+				"Web Applications",
+				"Applications"
+			]
+		},
+		{
+			"name": "SQL",
+			"tags": [
+				"SQL",
+				"DBMS",
+				"Databases",
+				"Query",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "MySQL",
+			"tags": [
+				"MySQL DBMS",
+				"Databases",
+				"Query",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "Bootstrap",
+			"tags": [
+				"Bootstrap",
+				"Web",
+				"Design",
+				"Web Design",
+				"Colors",
+				"Style",
+				"CSS",
+				"LESS",
+				"SASS",
+				"SCSS",
+				"Frameworks",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "Materialize",
+			"tags": [
+				"Materialize",
+				"Web",
+				"Design",
+				"Web Design",
+				"Colors",
+				"Style",
+				"CSS",
+				"LESS",
+				"SASS",
+				"SCSS",
+				"Frameworks",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "jQuery",
+			"tags": [
+				"jQuery",
+				"Web",
+				"Programming",
+				"JavaScript",
+				"JS",
+				"Frameworks",
+				"API",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "jQuery Mobile",
+			"tags": [
+				"jQuery Mobile",
+				"Web",
+				"Programming",
+				"JavaScript",
+				"JS",
+				"Frameworks",
+				"API",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "LESS",
+			"tags": [
+				"LESS",
+				"Web",
+				"Design",
+				"Web Design",
+				"Colors",
+				"Style",
+				"CSS",
+				"LESS",
+				"SASS",
+				"SCSS",
+				"Parser",
+				"Parsing",
+				"Preprocessor",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "SCSS",
+			"tags": [
+				"SCSS",
+				"Web",
+				"Design",
+				"Web Design",
+				"Colors",
+				"Style",
+				"CSS",
+				"LESS",
+				"SASS",
+				"SCSS",
+				"Parser",
+				"Parsing",
+				"Preprocessor",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "LAMP Stack",
+			"tags": [
+				"LAMP Stack",
+				"Web",
+				"Programming",
+				"Full Stack",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "WAMP Stack",
+			"tags": [
+				"WAMP Stack",
+				"Web",
+				"Programming",
+				"Full Stack",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "MEAN Stack",
+			"tags": [
+				"MEAN Stack",
+				"Web",
+				"Programming",
+				"Full Stack",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "Ember.js 2",
+			"tags": [
+				"Ember.js 2",
+				"Web",
+				"Programming",
+				"Web Development",
+				"Website",
+				"Web Design",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end"
+			]
+		},
+		{
+			"name": "Node.js",
+			"tags": [
+				"Node.js",
+				"Web",
+				"Programming",
+				"Server",
+				"API",
+				"Web Development",
+				"Website",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end"
+			]
+		},
+		{
+			"name": "Express.js",
+			"tags": [
+				"Express.js",
+				"Web",
+				"Programming",
+				"Server",
+				"API",
+				"Web Development",
+				"Website",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end"
+			]
+		},
+		{
+			"name": "Socket.io",
+			"tags": [
+				"Socket.io",
+				"Web",
+				"Programming",
+				"Server",
+				"API",
+				"Web Development",
+				"Website",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end",
+				"Backend",
+				"Back-end"
+			]
+		},
+		{
+			"name": "Firebase",
+			"tags": [
+				"Firebase",
+				"DBMS",
+				"Databases",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "Backbone.js",
+			"tags": [
+				"Backbone.js",
+				"Web",
+				"Programming",
+				"Client Side",
+				"Web Development",
+				"Website",
+				"Web Design",
+				"Web Apps",
+				"Web Applications",
+				"Applications",
+				"Frontend",
+				"Front-end"
+			]
+		},
+		{
+			"name": "Underscore.js",
+			"tags": [
+				"Underscore.js",
+				"Web",
+				"Templating Engine",
+				"Templates",
+				"Backbone.js",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "cURL",
+			"tags": [
+				"C",
+				"PHP",
+				"cURL",
+				"Web",
+				"Programming",
+				"Scripting",
+				"Extracting",
+				"Hacking",
+				"Parsing",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "PHP Imagick",
+			"tags": [
+				"PHP Imagick",
+				"Web",
+				"Programming",
+				"Image Rendering",
+				"Image Processing",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "C++",
+			"tags": [
+				"C",
+				"C++",
+				"Core",
+				"Programming",
+				"Competitive",
+				"Engineering"
+			]
+		},
+		{
+			"name": "MongoDB",
+			"tags": [
+				"MongoDB DBMS",
+				"Databases",
+				"Backend",
+				"Back-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "Angular.js",
+			"tags": [
+				"Angular.js",
+				"Web",
+				"Programming",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		},
+		{
+			"name": "Android",
+			"tags": [
+				"Android",
+				"Mobile App Development",
+				"JAVA",
+				"Backend",
+				"Back-end",
+				"Frontend",
+				"Front-end"
+			]
+		},
+		{
+			"name": "GIT",
+			"tags": [
+				"GIT",
+				"Web",
+				"Programming",
+				"VCS",
+				"GitHub"
+			]
+		},
+		{
+			"name": "Adobe Photoshop",
+			"tags": [
+				"Adobe Photoshop",
+				"Design Tools",
+				"Image Manipulation",
+				"Photo Editing",
+				"UI",
+				"UX",
+				"Colors",
+				"Colours"
+			]
+		},
+		{
+			"name": "Adobe Illustrator",
+			"tags": [
+				"Adobe Illustrator",
+				"Design Tools",
+				"Image Manipulation",
+				"Photo Editing",
+				"UI",
+				"UX",
+				"Colors",
+				"Colours"
+			]
+		},
+		{
+			"name": "Adobe After Effects",
+			"tags": [
+				"Adobe After Effects",
+				"Design Tools",
+				"Video Manipulation",
+				"Video Editing",
+				"UI",
+				"UX",
+				"Colors",
+				"Colours"
+			]
+		},
+		{
+			"name": "Intel XDK",
+			"tags": [
+				"Intel XDK",
+				"Web",
+				"Programming",
+				"Frontend",
+				"Front-end",
+				"Mobile App Development"
+			]
+		},
+		{
+			"name": "Unity Game Engine",
+			"tags": [
+				"Unity Game Engine",
+				"Gaming",
+				"Game Development",
+				"3D Modelling"
+			]
+		},
+		{
+			"name": "Blender 3D",
+			"tags": [
+				"Blender 3D",
+				"Gaming",
+				"Game Development",
+				"3D Modelling"
+			]
+		},
+		{
+			"name": "Camtasia Studio",
+			"tags": [
+				"Camtasia Studio",
+				"Design Tools",
+				"Video Manipulation",
+				"Video Editing",
+				"UI",
+				"UX",
+				"Colors",
+				"Colours"
+			]
+		},
+		{
+			"name": "GIMP",
+			"tags": [
+				"GIMP",
+				"Design Tools",
+				"Image Manipulation",
+				"Photo Editing",
+				"UI",
+				"UX",
+				"Colors",
+				"Colours"
+			]
+		},
+		{
+			"name": "WordPress",
+			"tags": [
+				"WordPress",
+				"Frontend",
+				"Front-end",
+				"Blog Making",
+				"Site",
+				"Website"
+			]
+		},
+		{
+			"name": "OpenCart",
+			"tags": [
+				"OpenCart",
+				"Frontend",
+				"Front-end",
+				"Ecommerce",
+				"E-commerce",
+				"Site",
+				"Sell",
+				"Website"
+			]
+		},
+		{
+			"name": "Handlebars",
+			"tags": [
+				"Handlebars",
+				"Web",
+				"Templating Engine",
+				"Templates",
+				"Backbone.js",
+				"Frontend",
+				"Front-end",
+				"Web Development"
+			]
+		}
+	]
+}

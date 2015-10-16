@@ -20,3 +20,6 @@ var isElementInViewport = function (el,tolerance,offset) {
 var scrollTo = function(el,offset){
 	$("body").animate({scrollTop: el.position().top+offset},800);
 };
+var escapeRegExp = function(str) {
+	return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+};

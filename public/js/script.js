@@ -14,3 +14,26 @@ $(".section02 .scroll-left").click(function(e){
 $(".section02 .scroll-right").click(function(e){
 	$(".section02 .scroll-horizontal").stop().animate({scrollLeft: $(".section02 .scroll-horizontal").scrollLeft()+510},800,'easeOutExpo');
 });
+$("#skill-search").on('input',function () {
+	$(".skills-list").html("");
+	var key = $(this).val().trim();
+	console.log(key);
+	key = escapeRegExp(key);
+	var skills = skillsJSON;
+	skills = skills.skill;
+	console.log(skills);
+	$.each(skills, function (i, val) {
+		var skillVal = val;
+		$.each(val.tags, function (i, val) {
+			console.log(key);
+			var p = new RegExp(key,'i');
+			console.log(p);
+			console.log(p.test(val));
+			if(p.test(val)){
+				var skill = $('<span class="skill">' + skillVal.name + '</span>');
+				$('.skills-list').append(skill);
+				return false;
+			}
+		});
+	});
+});

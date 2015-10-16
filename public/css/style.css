@@ -297,7 +297,145 @@ section.section02 .scroll-horizontal .projects-gallery #project09 .image-box {
   background-image: url('/img/PRJ08.jpg');
 }
 section.section03 {
+  height: 750px;
   background: #12FFC3;
+  position: relative;
+}
+section.section03 .work-experience-container {
+  position: relative;
+  left: -200px;
+  top: -200px;
+  background: #0cb289;
+  height: 1000px;
+  width: 50%;
+  -webkit-transform: rotateZ(14deg);
+  -moz-transform: rotateZ(14deg);
+  -ms-transform: rotateZ(14deg);
+  -o-transform: rotateZ(14deg);
+  transform: rotateZ(14deg);
+}
+section.section03 .work-experience-container .tilted-container {
+  z-index: 1;
+  height: 120%;
+  width: 100%;
+  position: absolute;
+  left: -140px;
+  top: -15%;
+  -webkit-transform: rotateZ(-14deg);
+  -moz-transform: rotateZ(-14deg);
+  -ms-transform: rotateZ(-14deg);
+  -o-transform: rotateZ(-14deg);
+  transform: rotateZ(-14deg);
+}
+section.section03 .work-experience-container .tilted-container .content-container {
+  width: 50%;
+  height: 100%;
+  top: 40%;
+  position: absolute;
+  left: 390px;
+}
+section.section03 .work-experience-container .tilted-container .content-container * {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-weight: 100;
+}
+section.section03 .work-experience-container .tilted-container .content-container h1 {
+  top: 40%;
+}
+section.section03 .work-experience-container .tilted-container .content-container .work-area {
+  top: 50%;
+}
+@media screen and (max-width: 1450px) {
+  section.section03 .work-experience-container .tilted-container .content-container .work-area p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (min-width: 1451px) {
+  section.section03 .work-experience-container .tilted-container .content-container .work-area p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+section.section03 .work-experience-container .tilted-container .content-container .work-area .company-logo {
+  height: 120px;
+  width: 120px;
+}
+section.section03 .skills-container {
+  height: 680px;
+  width: 54%;
+  position: absolute;
+  top: 12.90%;
+  right: 0;
+}
+section.section03 .skills-container * {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-weight: 100 !important;
+}
+section.section03 .skills-container h1 {
+  position: relative;
+}
+section.section03 .skills-container h1 textarea {
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 2px white solid;
+  overflow: hidden;
+  margin-left: 30px;
+  width: 45%;
+  height: 5rem;
+  vertical-align: text-bottom;
+  font-size: 3rem;
+}
+section.section03 .skills-container h1 ::-webkit-input-placeholder {
+  color: #0cb289;
+}
+section.section03 .skills-container h1 ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #0cb289;
+}
+section.section03 .skills-container h1 :-ms-input-placeholder {
+  color: #0cb289;
+}
+section.section03 .skills-container h1 .search-button {
+  display: inline-block;
+  background-image: url('/img/search.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  vertical-align: bottom;
+  background-size: 70%;
+  height: 5rem;
+  width: 5rem;
+  margin-left: -15px;
+}
+section.section03 .skills-container .skills-list {
+  font-size: 3rem;
+  width: 90%;
+  display: none;
+}
+section.section03 .skills-container .skills-list .skill {
+  display: inline-block;
+  line-height: 4rem;
+  padding: 2px 15px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+section.section03 .skills-container .skills-list .skill:hover {
+  background: #00dea6;
+}
+section.section03 .skills-container .fade-out-div {
+  width: 100%;
+  height: 60px;
+  background-color: #12FFC3;
+  position: absolute;
+  bottom: 0;
+  -webkit-box-shadow: 0 0 30px 12px #12FFC3;
+  -moz-box-shadow: 0 0 30px 12px #12FFC3;
+  box-shadow: 0 0 30px 12px #12FFC3;
 }
 section.section04 {
   background: #FF6251;
