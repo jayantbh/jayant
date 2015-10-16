@@ -1,7 +1,7 @@
 /**
  * Created by Jayant Bhawal on 05-10-2015.
  */
-$(".main-list-container a").click(function(e){
+$(".main-list-container a, .floating-index-container a").click(function(e){
 	e.preventDefault()
 	var ID = $(this).attr("href");
 	ID = ID.substr(1);

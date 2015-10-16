@@ -448,6 +448,7 @@ section.section04 {
   background: #FF6251;
   padding-top: 40px;
   padding-bottom: 40px;
+  min-height: 500px;
 }
 section.section04 * {
   font-family: 'Roboto Condensed', sans-serif !important;

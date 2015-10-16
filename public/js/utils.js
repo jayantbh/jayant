@@ -29,7 +29,7 @@ var escapeRegExp = function(str) {
 var addTextByDelay = function(elem,text,speed,wait){
 	setTimeout(function () {
 
-		console.log(text)
+		//console.log(text)
 		var index=0;
 		var intObject= setInterval(function() {
 			elem.html(elem.html()+text[index]);

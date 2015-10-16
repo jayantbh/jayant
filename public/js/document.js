@@ -31,7 +31,7 @@ var loadS02 = function(delay,speed){
 	}
 };
 var loadS03 = function (delay, speed) {
-	if(!s03loaded &&  isElementInViewport($(".section03"),350)){
+	if(!s03loaded &&  isElementInViewport($(".section03"),650)){
 		$.getJSON('/json/skills.json', function (skills) {
 			skillsJSON = skills;
 			skills = skills.skill;
@@ -72,7 +72,8 @@ var loadS04 = function(delay,speed){
 			"I absolutely love dogs though.",
 			"I AM A HUGE FOODIE. HUGE. (Quite clearly visible too.)",
 			"Also,",
-			"I’m incredibly hardworking. The people mentioned above can vouch for that."
+			"I’m incredibly hardworking. The people mentioned above can vouch for that.",
+			"And as you may have noticed, a huge LOTR/Tolkien universe fan."
 		]
 		//,
 		//post : [
