@@ -99,10 +99,13 @@ var loadS04 = function(delay,speed){
 		addTextByDelay($(".intro.line-2"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
 		addTextByDelay($(".intro.line-3"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
 		addTextByDelay($(".intro.line-4"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
-		addTextByDelay($(".intro.line-5"),strings.intro[index],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
+		addTextByDelay($(".intro.line-5"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
+		addTextByDelay($(".intro.line-6"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
+		addTextByDelay($(".intro.line-7"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
+		addTextByDelay($(".intro.line-8"),strings.intro[index],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
 
 		index = 0;
-		for(i = 1; i <= 9; i++){
+		for(i = 1; i <= 12; i++){
 			addTextByDelay($(".social.line-"+i),strings.mid[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
 		}
 
