@@ -11,6 +11,7 @@ var skillsJSON = {};
 var loadS01 = function(delay,speed){
 	if(!s01loaded && isElementInViewport($(".section01"),350)){
 		$(".main-title-underline").delay(delay).animate({width: "100%"}, speed, 'easeOutExpo',function(){
+			$(".loading-text-s01").addClass("animate-slide-down");
 			$.each($(".main-title-container ul li .list-container"),function(i,el){
 				$(el).delay(i*50).slideDown(200);
 			});
@@ -52,40 +53,30 @@ var loadS04 = function(delay,speed){
 		intro : [
 			"Life",
 			"Hi.",
-			"I'm Jayant, a 20 year old really happy geek.",
-			"Since I was very young,",
-			"I had a significant amount of interest in computers, ",
+			"I'm Jayant, a 'normal' 22 year old.",
+			"I've always been fascinated by computers in general,",
 			"but very little access until I was old enough.",
-			"I made some really great friends in school ",
-			"who were quite like me, yet so different.",
-			"Half of them were geeks/nerds, like me. ",
-			"That really helped boost my exposure to the world of tech."
+			"Fortunately, I had pretty decent peers through school and college,",
+			"some of whom were pretty pivotal in how things went for me.",
+			"I've been able to use the help offered by my peers,",
+			"and use it to do cool stuff and land opportunities,",
+			"that makes others say 'This dude is lucky!'...",
+			"Maybe I am, or maybe I've worked hard enough. Who knows."
 		],
 		mid : [
 			"But...",
-			"I’m not all tech and geekiness.",
-			"I’ve got more decade long friends than I could count on one hand.",
-			"I’ve got parents that only a lucky few ever have.",
-			"I’ve got the greatest girlfriend one could ask for.",
-			"I’ve got an incredible mentor who is probably why you’re even seeing this.",
-			"I’ve got two dogs, with whom I have kind of a love/hate relationship.",
-			"I absolutely love dogs though.",
-			"I AM A HUGE FOODIE. HUGE. (Quite clearly visible too.)",
+			"I’m not all screens and keyboards.",
+			"I love history! Natural, cultural, political, name it.",
+			"I love Art and Crafts! I have a thing for wood and stone crafts.",
+			"I love some sports! Badminton and Table Tennis the most.",
+			"I LOVE DOGS. My favorite dog is my pet who's bit me the most.",
+			"I love spending an evening watching a never-seen movie with my peeps.",
+			"Lord of the Rings! Game of Thrones! Halo! Breaking Bad!",
+			"And I LOVE trying out new food. (You can visibly tell.)",
 			"Also,",
-			"I’m incredibly hardworking. The people mentioned above can vouch for that.",
-			"And as you may have noticed, a huge LOTR/Tolkien universe fan."
+			"I’m incredibly hardworking. My employers I'm sure will agree. :)",
+			"And pretty importantly, I'm a massive gaming fan."
 		]
-		//,
-		//post : [
-		//	"I never really focused on academics just for the sake of grades.",
-		//	"I focused on learning what was interesting, regardless of the hits my grades were taking.",
-		//	"In any case, if you’re interested in my academic score, here they are:",
-		//],
-		//scores : [
-		//	"Class 10th - Army Public School Barrackpore: 9.0 CGPA",
-		//	"Class 12th - Army Public School Barrackpore: 77.0%",
-		//	"West Bengal University of Technology (2nd year): 6.75 YGPA."
-		//]
 	}
 	var sequenceDelay = delay;
 	if(!s04loaded &&  isElementInViewport($(".section04"),350)){
@@ -102,11 +93,13 @@ var loadS04 = function(delay,speed){
 		addTextByDelay($(".intro.line-5"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
 		addTextByDelay($(".intro.line-6"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
 		addTextByDelay($(".intro.line-7"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
-		addTextByDelay($(".intro.line-8"),strings.intro[index],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
+		addTextByDelay($(".intro.line-8"),strings.intro[index++],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
+		addTextByDelay($(".intro.line-9"),strings.intro[index],5,sequenceDelay); sequenceDelay+=(strings.intro[index].length*10+delayGap); delayGap+=20;
 
 		index = 0;
 		for(i = 1; i <= 12; i++){
-			addTextByDelay($(".social.line-"+i),strings.mid[index++],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
+			addTextByDelay($(".social.line-"+i),strings.mid[index],5,sequenceDelay); sequenceDelay+=(strings.mid[index].length*10+delayGap); delayGap+=20;
+			index++;
 		}
 
 		//index = 0;

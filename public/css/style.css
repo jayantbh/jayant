@@ -675,3 +675,10 @@ section.section05 .row .col.contact-form button i {
     height: auto;
   }
 }
+.slide-down {
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+}
+.animate-slide-down {
+  transform: translateY(-100%);
+  opacity: 0;
+}
